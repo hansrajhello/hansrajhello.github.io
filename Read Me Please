@@ -1,0 +1,66 @@
+All js is uglified into one file - js/minified.js
+All css is also uglified into - css/stylesheet.css
+So, just link these 2 instead of all different files.
+
+To be Removed -
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/css_002.css">
+	<link rel="stylesheet" type="text/css" href="css/css_003.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+
+	<script src="js/jquery_002.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+	<script src="js/nivo-lightbox.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/main.js"></script>
+
+To be Added -
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.min.css">
+	<script src="js/javascript.min.js"></script>
+
+Current folder tree -
+
+	site-baseurl
+	|
+	|____css
+	|
+	|
+	|____favicons
+	|
+	|
+	|____img____
+	|			|
+	|			|
+	|			|____background
+	|			|
+	|			|
+	|			|____nivo-lightbox
+	|
+	|
+	|____js
+	|
+	|
+	|____index.html
+	|
+	|
+	|____Readme Files
+	|
+	|
+	|____fonts
+	|
+	|
+	|----files (to be removed afterwards)
+	
+	
+	
+	
+	To be added- Features
+		>> Boarder search with good filters
+		>>  
+
